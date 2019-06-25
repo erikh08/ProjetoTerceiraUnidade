@@ -2,12 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 
-void escrevemat(float m[50][50], int nl, int nc, char jonas[100])
+// A funcao escreve a matriz dentro do arquivo selecionado
+// o usuario deve digitar o caminho do arquivo na funcao principal
+
+
+void escrevemat(float m[50][50], int nl, int nc, char caminhoArquivo[100])
 {
     int i, j;
     FILE *f;
 
-    f=fopen(jonas, "w");
+    f=fopen(caminhoArquivo, "w");
     fprintf(f,"%d %d\n", nl, nc);
     for(i=0;i<nl;i++){
         for(j=0;j<nc;j++){

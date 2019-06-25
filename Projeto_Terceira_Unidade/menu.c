@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Aqui temos o menu que ira mostrar as opcoes possiveis
+// para o usuario escolher no programa de manupulacao de matrizes
+
 void menu(void){
     printf("----PROGRAMA DE MANIPUULACAO DE MATRIZES----\n"
            " (1) Definir o tamanho da matriz A\n"

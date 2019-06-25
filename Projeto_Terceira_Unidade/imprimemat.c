@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Essa funcao imprime a matriz selecionada na tela
+
 void imprimemat(float mat[50][50], int linhas, int colunas){
     int i, j;
     for (i=0;i<linhas;i++) {
